@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CD74472FDA9DBA51CA95F4 /* Pods_CondorUIProofeOfConcept.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F015F133A2819FFA435FC78 /* Pods_CondorUIProofeOfConcept.framework */; };
+		9B0D82A62231B485001BBD71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D82A52231B485001BBD71 /* AppDelegate.swift */; };
+		9B0D82A82231B485001BBD71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D82A72231B485001BBD71 /* ViewController.swift */; };
+		9B0D82AB2231B485001BBD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D82A92231B485001BBD71 /* Main.storyboard */; };
+		9B0D82AD2231B485001BBD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D82AC2231B485001BBD71 /* Assets.xcassets */; };
+		9B0D82B02231B485001BBD71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D82AE2231B485001BBD71 /* LaunchScreen.storyboard */; };
+		9BABE5932231B7A60089C5EC /* Genesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE5922231B7A60089C5EC /* Genesis.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27CE69309DB3C0EB29E52D4F /* Pods-CondorUIProofeOfConcept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondorUIProofeOfConcept.release.xcconfig"; path = "Target Support Files/Pods-CondorUIProofeOfConcept/Pods-CondorUIProofeOfConcept.release.xcconfig"; sourceTree = "<group>"; };
+		5F015F133A2819FFA435FC78 /* Pods_CondorUIProofeOfConcept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CondorUIProofeOfConcept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0D82A22231B485001BBD71 /* CondorUIProofeOfConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondorUIProofeOfConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0D82A52231B485001BBD71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B0D82A72231B485001BBD71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B0D82AA2231B485001BBD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0D82AC2231B485001BBD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0D82AF2231B485001BBD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0D82B12231B485001BBD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8B103CC46849FDA2BC0F11 /* Pods-CondorUIProofeOfConcept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondorUIProofeOfConcept.debug.xcconfig"; path = "Target Support Files/Pods-CondorUIProofeOfConcept/Pods-CondorUIProofeOfConcept.debug.xcconfig"; sourceTree = "<group>"; };
+		9BABE5922231B7A60089C5EC /* Genesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genesis.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0D829F2231B484001BBD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CD74472FDA9DBA51CA95F4 /* Pods_CondorUIProofeOfConcept.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17425BBEEBFBC24BE4445813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B103CC46849FDA2BC0F11 /* Pods-CondorUIProofeOfConcept.debug.xcconfig */,
+				27CE69309DB3C0EB29E52D4F /* Pods-CondorUIProofeOfConcept.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B0D82992231B484001BBD71 = {
+			isa = PBXGroup;
+			children = (
+				9B0D82A42231B485001BBD71 /* CondorUIProofeOfConcept */,
+				9B0D82A32231B485001BBD71 /* Products */,
+				17425BBEEBFBC24BE4445813 /* Pods */,
+				C1D994C5C68782599863779D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0D82A32231B485001BBD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0D82A22231B485001BBD71 /* CondorUIProofeOfConcept.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0D82A42231B485001BBD71 /* CondorUIProofeOfConcept */ = {
+			isa = PBXGroup;
+			children = (
+				9B0D82A52231B485001BBD71 /* AppDelegate.swift */,
+				9B0D82A72231B485001BBD71 /* ViewController.swift */,
+				9B0D82A92231B485001BBD71 /* Main.storyboard */,
+				9B0D82AC2231B485001BBD71 /* Assets.xcassets */,
+				9B0D82AE2231B485001BBD71 /* LaunchScreen.storyboard */,
+				9B0D82B12231B485001BBD71 /* Info.plist */,
+				9BABE5922231B7A60089C5EC /* Genesis.swift */,
+			);
+			path = CondorUIProofeOfConcept;
+			sourceTree = "<group>";
+		};
+		C1D994C5C68782599863779D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F015F133A2819FFA435FC78 /* Pods_CondorUIProofeOfConcept.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0D82A12231B484001BBD71 /* CondorUIProofeOfConcept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0D82B42231B485001BBD71 /* Build configuration list for PBXNativeTarget "CondorUIProofeOfConcept" */;
+			buildPhases = (
+				46563DDC1020E6E0DB85F81F /* [CP] Check Pods Manifest.lock */,
+				9B0D829E2231B484001BBD71 /* Sources */,
+				9B0D829F2231B484001BBD71 /* Frameworks */,
+				9B0D82A02231B484001BBD71 /* Resources */,
+				5604C6B388E12086E3B0CF09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondorUIProofeOfConcept;
+			productName = CondorUIProofeOfConcept;
+			productReference = 9B0D82A22231B485001BBD71 /* CondorUIProofeOfConcept.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0D829A2231B484001BBD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Condor Labs";
+				TargetAttributes = {
+					9B0D82A12231B484001BBD71 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B0D829D2231B484001BBD71 /* Build configuration list for PBXProject "CondorUIProofeOfConcept" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0D82992231B484001BBD71;
+			productRefGroup = 9B0D82A32231B485001BBD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0D82A12231B484001BBD71 /* CondorUIProofeOfConcept */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0D82A02231B484001BBD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0D82B02231B485001BBD71 /* LaunchScreen.storyboard in Resources */,
+				9B0D82AD2231B485001BBD71 /* Assets.xcassets in Resources */,
+				9B0D82AB2231B485001BBD71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46563DDC1020E6E0DB85F81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CondorUIProofeOfConcept-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5604C6B388E12086E3B0CF09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CondorUIProofeOfConcept/Pods-CondorUIProofeOfConcept-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CondorUIProofeOfConcept/Pods-CondorUIProofeOfConcept-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CondorUIProofeOfConcept/Pods-CondorUIProofeOfConcept-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0D829E2231B484001BBD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BABE5932231B7A60089C5EC /* Genesis.swift in Sources */,
+				9B0D82A82231B485001BBD71 /* ViewController.swift in Sources */,
+				9B0D82A62231B485001BBD71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B0D82A92231B485001BBD71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0D82AA2231B485001BBD71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0D82AE2231B485001BBD71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0D82AF2231B485001BBD71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0D82B22231B485001BBD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B0D82B32231B485001BBD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0D82B52231B485001BBD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8B103CC46849FDA2BC0F11 /* Pods-CondorUIProofeOfConcept.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRFNDLT6FX;
+				INFOPLIST_FILE = CondorUIProofeOfConcept/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.condorlabs.CondorUIProofeOfConcept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0D82B62231B485001BBD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CE69309DB3C0EB29E52D4F /* Pods-CondorUIProofeOfConcept.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRFNDLT6FX;
+				INFOPLIST_FILE = CondorUIProofeOfConcept/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.condorlabs.CondorUIProofeOfConcept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0D829D2231B484001BBD71 /* Build configuration list for PBXProject "CondorUIProofeOfConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0D82B22231B485001BBD71 /* Debug */,
+				9B0D82B32231B485001BBD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0D82B42231B485001BBD71 /* Build configuration list for PBXNativeTarget "CondorUIProofeOfConcept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0D82B52231B485001BBD71 /* Debug */,
+				9B0D82B62231B485001BBD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0D829A2231B484001BBD71 /* Project object */;
+}
