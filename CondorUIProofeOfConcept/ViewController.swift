@@ -9,6 +9,20 @@
 import UIKit
 import CondorUIComponentsIOS
 
+class State: Selectable {
+    var cities: [String]
+    var name: String
+
+    init(cities: [String], name: String) {
+        self.cities = cities
+        self.name = name
+    }
+
+    func getSelectableText() -> String {
+        return name
+    }
+}
+
 class ViewController: UIViewController {
 
     struct Regex {
@@ -31,6 +45,8 @@ class ViewController: UIViewController {
     var currencyTextField: UIView?
     var startDateField: UIView?
     var endDateField: UIView?
+    var cityTextSelectionField: UIView?
+    var stateSelectorField: UIView?
 
     var fields: [UIView] = []
 
@@ -50,6 +66,8 @@ class ViewController: UIViewController {
         setupCurrencyTextField()
         setupStartDateField()
         setupEndDateField()
+        setupCitySelectionField()
+        setupStateSelectorField()
     }
 
     private func setupPhoneTextField() {
@@ -119,6 +137,31 @@ class ViewController: UIViewController {
         self.appendForm(field: self.endDateField)
     }
 
+    private func setupCitySelectionField() {
+        cityTextSelectionField = TextSelectionFormField(frame: defaultTextFieldFrame)
+
+        guard let field = self.cityTextSelectionField as? TextSelectionFormFieldProtocol else {
+            return
+        }
+        field.set(placeholder: "City")
+
+        self.appendForm(field: self.cityTextSelectionField)
+    }
+
+    private func setupStateSelectorField() {
+        stateSelectorField = SelectorFormField(frame: defaultTextFieldFrame)
+
+        guard let field = self.stateSelectorField as? SelectorFormFieldProtocol else {
+            return
+        }
+        field.set(placeholder: "State")
+        field.set(data: [State(cities: ["Medellin", "Envigado"], name: "Antioquia"), State(cities: ["Chia", "Bogota"], name: "Cundinamarca")])
+
+        field.set(notifiable: self)
+
+        self.appendForm(field: self.stateSelectorField)
+    }
+
     private func appendForm(field: UIView?) {
         if let field = field {
             fields.append(field)
@@ -133,6 +176,19 @@ extension ViewController: DateFormFieldChangeNotifiable {
             (endDateField as? DateFormFieldType)?.set(minimumDate: date)
         case endDateField:
             (startDateField as? DateFormFieldType)?.set(maximumDate: date)
+        default:
+            break
+        }
+    }
+}
+
+extension ViewController: SelectorFormFieldChangeNotifiable {
+    func onSelected(row: Selectable, from selector: SelectorFormField) {
+        switch selector {
+        case stateSelectorField:
+            if let selectedRow = selector.getSelectedRow() as? State {
+                (cityTextSelectionField as? TextSelectionFormFieldProtocol)?.set(availableOptions: selectedRow.cities)
+            }
         default:
             break
         }
