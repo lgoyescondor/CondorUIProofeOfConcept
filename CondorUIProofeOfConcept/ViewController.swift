@@ -95,27 +95,46 @@ class ViewController: UIViewController {
 
     private func setupStartDateField() {
         startDateField = DateFormField(frame: defaultTextFieldFrame)
-        
+
         guard let field = self.startDateField as? DateFormFieldType else {
             return
         }
-        
+        field.set(placeholder: "Start date")
+        field.set(notifiable: self)
+        field.forbidDatesLaterThanToday()
+
         self.appendForm(field: self.startDateField)
     }
-    
+
     private func setupEndDateField() {
         endDateField = DateFormField(frame: defaultTextFieldFrame)
-        
+
         guard let field = self.endDateField as? DateFormFieldType else {
             return
         }
-        
+        field.set(placeholder: "End date")
+        field.set(notifiable: self)
+        field.forbidDatesLaterThanToday()
+
         self.appendForm(field: self.endDateField)
     }
 
     private func appendForm(field: UIView?) {
         if let field = field {
             fields.append(field)
+        }
+    }
+}
+
+extension ViewController: DateFormFieldChangeNotifiable {
+    func onSelected(dateString: String, date: Date, from datePicker: DateFormField) {
+        switch datePicker {
+        case startDateField:
+            (endDateField as? DateFormFieldType)?.set(minimumDate: date)
+        case endDateField:
+            (startDateField as? DateFormFieldType)?.set(maximumDate: date)
+        default:
+            break
         }
     }
 }
